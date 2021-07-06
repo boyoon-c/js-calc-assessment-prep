@@ -60,8 +60,8 @@ multiplyBtn.addEventListener('click', ()=>{
 */
 
 function calcFun(a,b,operator){
-    res = eval(a, operator, b)
-    return res
+    mathResult.value = eval(a + operator + b)
+    return mathResult.value
 }
 
 
