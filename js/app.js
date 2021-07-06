@@ -63,7 +63,13 @@ function calcFun(a,b,operator){
     mathResult.value = eval(a + operator + b)
     return mathResult.value
 }
-
+operators = document.getElementById('operators')
+operators.addEventListener('click', (e)=>{
+    operator=e.target.innerText
+    num1 = parseInt(a.value)
+    num2 = parseInt(b.value)
+    calcFun(num1,num2,operator)
+})
 
 
 // EASY BONUS:  If the result is odd, change it's color to salmon.
