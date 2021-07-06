@@ -6,3 +6,4 @@
 
 // EASY BONUS:  If the result is odd, change it's color to salmon.
 // MEDIUM BONUS:  Use a single event listener to accomplish this task, rather than 4 of them.
+// HARD BONUS:  Use a single event listener and don't use any conditionals for the math
