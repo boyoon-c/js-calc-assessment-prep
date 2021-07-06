@@ -17,13 +17,13 @@ button {
   text-align: center;
 }
 
-#mathResult {
+#math-result {
   font-size: 45px;
   width: 250px;
   text-align: center;
 }
 
-#mathInputs {
+#math-inputs {
   font-size: 35px;
   margin: 10px 0 10px 0;
 }
